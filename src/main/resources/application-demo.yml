@@ -1,0 +1,9 @@
+server:
+  port: 5000
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://challenge.cc2zgll1hhdl.us-east-2.rds.amazonaws.com:5432/challenge
+    username: postgres
+    password: password
+    pool-size: 30
